@@ -29,11 +29,12 @@ Console.Write("[");
 Цикл для вывода элементов итогового массива кроме последнего с учетом пунктуации
 while(i<finalarray.Length-2){
     Console.Write('"');
-
-![qZQSt_lI8gg](https://github.com/AlexandrMyasoedov/project1/assets/147836108/9a36ec12-5bc8-4b6b-bbee-1730980a3e58)
-    
     Console.Write(finalarray[i]);
     Console.Write('"'+", ");
     i++;}
 Команда для вывода массива без , после последнего элемента массива и для заканчивания вывода массива знаком ]
 Console.Write('"'+finalarray[i]+'"'+"]");}
+
+Блок-схема
+![qZQSt_lI8gg](https://github.com/AlexandrMyasoedov/project1/assets/147836108/9a36ec12-5bc8-4b6b-bbee-1730980a3e58)
+
