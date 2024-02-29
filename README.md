@@ -16,7 +16,8 @@ i=0;
 Создание “заготовки” итогового массива с необходимым количеством элементов
 string[]finalarray=new string[count+1];
 count=0;
-Цикл для формирования итогового массива со всеми элементами из изначального массива, содержащими 3 и менее символов
+Цикл для формирования итогового массива
+ со всеми элементами из изначального массива, содержащими 3 и менее символов
 while(i<array.Length){
     if(array[i].Length<4){
         finalarray[count]=array[i];
@@ -28,6 +29,9 @@ Console.Write("[");
 Цикл для вывода элементов итогового массива кроме последнего с учетом пунктуации
 while(i<finalarray.Length-2){
     Console.Write('"');
+
+![qZQSt_lI8gg](https://github.com/AlexandrMyasoedov/project1/assets/147836108/9a36ec12-5bc8-4b6b-bbee-1730980a3e58)
+    
     Console.Write(finalarray[i]);
     Console.Write('"'+", ");
     i++;}
