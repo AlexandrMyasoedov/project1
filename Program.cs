@@ -12,3 +12,11 @@ while(i<array.Length){
         finalarray[count]=array[i];
         count++;}
     i++;}
+i=0;
+Console.Write("[");
+while(i<finalarray.Length-2){
+    Console.Write('"');
+    Console.Write(finalarray[i]);
+    Console.Write('"'+", ");
+    i++;}
+Console.Write('"'+finalarray[i]+'"'+"]");
